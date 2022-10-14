@@ -1,0 +1,102 @@
+header {
+    height: 6vh;
+}
+
+.main hr {
+    height: 1px;
+    background-color: #828282;
+}
+
+.container .lang {
+    margin-top: 20px;
+}
+
+header a {
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #828282;
+}
+
+header a:hover {
+    color: black;
+    font-weight: 700;
+}
+
+main .row img {
+    width: 100%;
+}
+
+
+footer {
+    margin-top: 80px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+}
+
+.foot h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.foot p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.txt1 {
+    display: flex;
+    justify-content: center;
+}
+
+.foot button {
+    display: flex;
+    width: 180px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Roboto';
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot button:hover {
+    color: black;
+    background-color: white;
+}
+
+.foot_end {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot .txt {
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.aboutMe,
+.portfolio {
+    background-color: #F6F6F6;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .lang {
+        transform: rotate(-90deg);
+    }
+}
